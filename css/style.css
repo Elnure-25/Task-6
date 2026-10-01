@@ -1,0 +1,76 @@
+#all{
+    display: flex;
+    justify-content: center;
+}
+#all ol li{
+    padding: 15px 130px;
+    color: white;
+    list-style-position: inside;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#all ol li:first-child{
+    background-color: black;
+}
+#all ol li:nth-child(2){
+    background-color: silver;
+}
+#all ol li:nth-child(3){
+    background-color: gray;
+}
+#all ol li:nth-child(4){
+    background-color: #3498db;
+}
+#all ol li:nth-child(5){
+    background-color: #800000;
+}
+#all ol li:nth-child(6){
+    background-color: #FF0000;
+}
+#all ol li:nth-child(7){
+    background-color: #800080;
+}
+#all ol li:nth-child(8){
+    background-color: #FF00FF;
+    color: black;
+}
+#all ol li:nth-child(9){
+    background-color: #008000;
+}
+#all ol li:nth-child(10){
+    background-color: #00FF00;
+    color: black;
+}
+#all ol li:nth-child(11){
+    background-color: #808000;
+}
+#all ol li:nth-child(12){
+    background-color: #FFFF00;
+    color: black;
+}
+#all ol li:nth-child(13){
+    background-color: #000080;
+}
+#all ol li:nth-child(14){
+    background-color: #0000FF;
+}
+#all ol li:nth-child(15){
+    background-color: #008080;
+}
+#all ol li:nth-child(16){
+    background-color: #00FFFF;
+    color:black ;
+}
+#all ol li:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 2s;
+    cursor: pointer;
+    box-shadow: 0 10px 20px gray;
+    transform: translateX(30px);
+}
+
